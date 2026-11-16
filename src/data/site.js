@@ -4,7 +4,6 @@ export const company = {
   mobile: '+966 50 813 7022', emails: ['info@faroha.com.sa', 'sales@faroha.com.sa'],
   cr: '7055413749', vat: '315102886200003',
 }
-export const nav = [['/','Home'],['/about','About'],['/services','Services'],['/support','Project Support'],['/hse','HSE'],['/certificates','Certificates'],['/contact','Contact']]
 export const specialties = [
   ['Civil & Structural','RCC works, foundations, industrial buildings and structural repairs.'],
   ['HVAC Services','HVAC installation, ventilation, ducting and related maintenance.'],
@@ -40,3 +39,18 @@ export const sustain = ['Efficient material planning to limit waste and unnecess
 export const hse = ['Risk assessment and method statements before high-risk activities.','Permit-to-work, lifting, excavation and confined-space controls as applicable.','Toolbox talks, worker competency and suitable PPE.','Inspection, incident reporting and continuous improvement.']
 export const quality = ['Work execution against approved drawings, specifications and inspection plans.','Material traceability, quality checks and documented handover where required.']
 export const focus = ['Industrial & Petrochemical Facilities','Infrastructure & Utilities','Commercial & Industrial Construction','Maintenance & Shutdowns','Technical Services','Equipment & Manpower Support']
+
+// Verified from the registration certificates in the company profile.
+export const milestones = [
+  ['15 Oct 2026', 'Commercial Registration issued', 'Ministry of Commerce — Limited Liability Company, CR 7055413749.'],
+  ['17 Oct 2026', 'VAT Registration Certificate issued', 'Zakat, Tax and Customs Authority — VAT No. 315102886200003.'],
+  ['1 Nov 2026', 'VAT registration effective', 'Quarterly tax period; first filing due 31 Jan 2027.'],
+]
+export const nav = [['/', 'Home'], ['/about', 'About'], ['/services', 'Services'], ['/projects', 'Projects'], ['/support', 'Project Support'], ['/hse', 'Safety & Quality'], ['/certificates', 'Certificates'], ['/contact', 'Contact']]
+export const mainNav = [['/', 'Home'], ['/about', 'About'], ['/services', 'Services'], ['/projects', 'Projects'], ['/certificates', 'Certificates'], ['/contact', 'Contact']]
+export const why = [
+  ['Safety-led delivery', 'Risk assessment and method statements before high-risk activities, with permit-to-work, lifting, excavation and confined-space controls as applicable.'],
+  ['Quality against specification', 'Work executed against approved drawings, specifications and inspection plans.'],
+  ['Traceable and documented', 'Material traceability, quality checks and documented handover where required.'],
+  ['Practical engineering', 'Responsive execution and coordinated site delivery, built for long-term client relationships.'],
+]

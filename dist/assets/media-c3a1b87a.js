@@ -1,0 +1,1 @@
+const e={hero:"/images/hero.jpg",overview:"/images/overview.jpg",leadership:"/images/leadership.jpg",cta:"/images/cta.jpg",construction:"/images/construction.jpg",piping:"/images/piping.jpg",services:"/images/services.jpg",maintenance:"/images/maintenance.jpg"};export{e as m};

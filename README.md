@@ -1,6 +1,6 @@
 # FAROHA Contracting Company LLC — Website
 
-React (Vite) website with 3D animation (three.js) and multi-page routing.
+React + Vite, frontend only. Framer Motion (component animation), GSAP ScrollTrigger (scroll-linked effects), Lenis (smooth scroll), Swiper, Lucide, React Router, React Hook Form.
 
 ## Run
 ```
@@ -9,9 +9,10 @@ npm run dev      # development
 npm run build    # production build -> dist/
 ```
 
-## Structure
-- `src/pages/` — Home, About, Services, Support, HSE, Certificates, Contact
-- `src/Hero3D.jsx`, `src/PageScene.jsx` — 3D scenes
-- `src/data.js` — company content
-- `public/certificates/` — CR and VAT certificate images
-- `public/_redirects` — SPA routing for Netlify
+## Adding real content (nothing is invented — empty sections stay hidden)
+- `src/data/media.js` — photography slots (hero, overview, services…). Empty = blueprint artwork.
+- `src/data/projects.js` — projects (home portfolio, /projects, /projects/:slug, galleries).
+- `src/data/people.js` — leadership message, organisation structure, testimonials.
+- `src/data/site.js` / `services.js` — company details and services copy.
+
+Photos go in `public/images/`. `public/_redirects` handles SPA routing on Netlify.

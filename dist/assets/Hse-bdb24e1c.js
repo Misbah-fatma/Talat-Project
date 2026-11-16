@@ -1,0 +1,5 @@
+import{j as s,k as l,q as r,l as c}from"./index-a9dd3c58.js";import{P as o}from"./PageHero-8d1657b5.js";import{u as m,E as u,L as i,R as x}from"./usePageMeta-50ebf6e7.js";const d=[["Health, safety & environment",l],["Quality commitment",r],["Sustainable construction",c]];function f(){return m("Safety & Quality","Health, safety, environment, quality and sustainability commitments at FAROHA Contracting."),s.jsxs(s.Fragment,{children:[s.jsx(o,{index:"05",crumb:"Safety & quality",title:`Responsible
+construction.`,sub:"Safety, quality and sustainability for long-term value."}),d.map(([e,n],a)=>s.jsx("section",{className:`sec ${a%2?"paper":"beige"}`,children:s.jsxs("div",{className:"wrap grid12",children:[s.jsxs("div",{className:"c-5 sticky",children:[s.jsx(u,{n:`0${a+1} /`,children:"Chapter"}),s.jsx(i,{text:e,className:"h-l"})]}),s.jsx("ul",{className:"c-6 off-1 chap",children:n.map(t=>s.jsx(x,{as:"li",children:t},t))})]})},e)),s.jsx("section",{className:"sec navy",children:s.jsx("div",{className:"wrap",children:s.jsx(i,{text:`Practical engineering.
+Safer sites.
+Responsible resources.
+Reliable outcomes.`,className:"h-xl"})})})]})}export{f as default};
